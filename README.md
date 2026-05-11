@@ -48,7 +48,7 @@ npm install
 ### 3. Configure environment
 ```bash
 cp .env
-# Edit .env — change JWT_SECRET 
+# .env — change JWT_SECRET 
 ```
 
 ### 4. Run
