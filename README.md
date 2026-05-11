@@ -2,7 +2,7 @@
 
 A full-stack web app for managing projects, assigning tasks, and tracking team progress — with role-based access control.
 
-**Live Demo:** `https://your-app.railway.app` ← Replace after deployment
+**Live Demo:** `https://railway.com/dashboard` 
 
 ---
 
@@ -40,21 +40,21 @@ A full-stack web app for managing projects, assigning tasks, and tracking team p
 
 ### 2. Clone & install
 ```bash
-git clone https://github.com/YOUR_USERNAME/taskflow.git
+git clone https://github.com/Suraj9260/taskflow.git
 cd taskflow
 npm install
 ```
 
 ### 3. Configure environment
 ```bash
-cp .env.example .env
-# Edit .env — change JWT_SECRET to something random
+cp .env
+# Edit .env — change JWT_SECRET 
 ```
 
 ### 4. Run
 ```bash
 npm start
-# Visit http://localhost:3000
+# Visit  http://localhost:8080
 ```
 
 The SQLite database (`taskflow.db`) is auto-created on first run.
@@ -72,7 +72,7 @@ The SQLite database (`taskflow.db`) is auto-created on first run.
 
 **Signup body:**
 ```json
-{ "name": "Alice", "email": "alice@co.com", "password": "pass123", "role": "admin" }
+{ "name": "Suraj", "email": "suraj@co.com", "password": "pass123", "role": "admin" }
 ```
 
 ### Projects
@@ -138,7 +138,7 @@ git push -u origin main
 ### Step 3: Set Environment Variables on Railway
 In your Railway project → **Variables** tab, add:
 ```
-JWT_SECRET=some_very_long_random_string_here
+JWT_SECRET=7f9094057864f141256086786a348006e88565a076709849500057088924377a
 PORT=3000
 ```
 
@@ -197,5 +197,4 @@ taskflow/
 
 ---
 
-## License
-MIT
+
